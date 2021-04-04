@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F203A3F225966A5800C7F424 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = F203A3F125966A5700C7F424 /* tick.png */; };
+		F21CFDB6257D407C00FFA10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CFDB5257D407C00FFA10D /* AppDelegate.swift */; };
+		F21CFDB8257D407C00FFA10D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CFDB7257D407C00FFA10D /* SceneDelegate.swift */; };
+		F21CFDBA257D407C00FFA10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CFDB9257D407C00FFA10D /* ViewController.swift */; };
+		F21CFDBD257D407C00FFA10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21CFDBB257D407C00FFA10D /* Main.storyboard */; };
+		F21CFDBF257D408000FFA10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21CFDBE257D408000FFA10D /* Assets.xcassets */; };
+		F21CFDC2257D408000FFA10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21CFDC0257D408000FFA10D /* LaunchScreen.storyboard */; };
+		F21CFDCA257D40DE00FFA10D /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CFDC9257D40DE00FFA10D /* CheckboxView.swift */; };
+		F21CFDCC257D40F200FFA10D /* CheckboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21CFDCB257D40F200FFA10D /* CheckboxView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F203A3F125966A5700C7F424 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		F21CFDB2257D407C00FFA10D /* GenericCheckBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericCheckBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21CFDB5257D407C00FFA10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21CFDB7257D407C00FFA10D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F21CFDB9257D407C00FFA10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F21CFDBC257D407C00FFA10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21CFDBE257D408000FFA10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21CFDC1257D408000FFA10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21CFDC3257D408000FFA10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21CFDC9257D40DE00FFA10D /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		F21CFDCB257D40F200FFA10D /* CheckboxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckboxView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21CFDAF257D407C00FFA10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21CFDA9257D407C00FFA10D = {
+			isa = PBXGroup;
+			children = (
+				F21CFDB4257D407C00FFA10D /* GenericCheckBoxDemo */,
+				F21CFDB3257D407C00FFA10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21CFDB3257D407C00FFA10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21CFDB2257D407C00FFA10D /* GenericCheckBoxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21CFDB4257D407C00FFA10D /* GenericCheckBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F21CFDB5257D407C00FFA10D /* AppDelegate.swift */,
+				F21CFDB7257D407C00FFA10D /* SceneDelegate.swift */,
+				F21CFDB9257D407C00FFA10D /* ViewController.swift */,
+				F21CFDC9257D40DE00FFA10D /* CheckboxView.swift */,
+				F21CFDCB257D40F200FFA10D /* CheckboxView.xib */,
+				F21CFDBB257D407C00FFA10D /* Main.storyboard */,
+				F203A3F125966A5700C7F424 /* tick.png */,
+				F21CFDBE257D408000FFA10D /* Assets.xcassets */,
+				F21CFDC0257D408000FFA10D /* LaunchScreen.storyboard */,
+				F21CFDC3257D408000FFA10D /* Info.plist */,
+			);
+			path = GenericCheckBoxDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21CFDB1257D407C00FFA10D /* GenericCheckBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21CFDC6257D408000FFA10D /* Build configuration list for PBXNativeTarget "GenericCheckBoxDemo" */;
+			buildPhases = (
+				F21CFDAE257D407C00FFA10D /* Sources */,
+				F21CFDAF257D407C00FFA10D /* Frameworks */,
+				F21CFDB0257D407C00FFA10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericCheckBoxDemo;
+			productName = GenericCheckBoxDemo;
+			productReference = F21CFDB2257D407C00FFA10D /* GenericCheckBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21CFDAA257D407C00FFA10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rahul Bandal";
+				TargetAttributes = {
+					F21CFDB1257D407C00FFA10D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = F21CFDAD257D407C00FFA10D /* Build configuration list for PBXProject "GenericCheckBoxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21CFDA9257D407C00FFA10D;
+			productRefGroup = F21CFDB3257D407C00FFA10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21CFDB1257D407C00FFA10D /* GenericCheckBoxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21CFDB0257D407C00FFA10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21CFDC2257D408000FFA10D /* LaunchScreen.storyboard in Resources */,
+				F203A3F225966A5800C7F424 /* tick.png in Resources */,
+				F21CFDBF257D408000FFA10D /* Assets.xcassets in Resources */,
+				F21CFDBD257D407C00FFA10D /* Main.storyboard in Resources */,
+				F21CFDCC257D40F200FFA10D /* CheckboxView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21CFDAE257D407C00FFA10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21CFDBA257D407C00FFA10D /* ViewController.swift in Sources */,
+				F21CFDB6257D407C00FFA10D /* AppDelegate.swift in Sources */,
+				F21CFDB8257D407C00FFA10D /* SceneDelegate.swift in Sources */,
+				F21CFDCA257D40DE00FFA10D /* CheckboxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F21CFDBB257D407C00FFA10D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21CFDBC257D407C00FFA10D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21CFDC0257D408000FFA10D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21CFDC1257D408000FFA10D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21CFDC4257D408000FFA10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21CFDC5257D408000FFA10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21CFDC7257D408000FFA10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GenericCheckBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenericCheckBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F21CFDC8257D408000FFA10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GenericCheckBoxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GenericCheckBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21CFDAD257D407C00FFA10D /* Build configuration list for PBXProject "GenericCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21CFDC4257D408000FFA10D /* Debug */,
+				F21CFDC5257D408000FFA10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21CFDC6257D408000FFA10D /* Build configuration list for PBXNativeTarget "GenericCheckBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21CFDC7257D408000FFA10D /* Debug */,
+				F21CFDC8257D408000FFA10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21CFDAA257D407C00FFA10D /* Project object */;
+}
